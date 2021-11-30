@@ -1,0 +1,176 @@
+body {
+  background-color: rgb(210, 218, 197);
+  font-family: "Acme", sans-serif;
+  color: rgb(8, 6, 6);
+  font-family: "Varela Round", sans-serif;
+}
+/*corps de la page*/
+/*font ecran, deplacement image tposition et top */
+#welcome {
+  height: 400px;
+  background-image: url("assets/schrecksee.webp");
+  background-size: cover;
+  width: auto;
+  position: relative;
+  top: 100px;
+}
+/*titre principale et fond ecran*/
+h2 {
+  font-size: 60px;
+  font-family: "Satisfy", cursive;
+}
+section {
+  padding: 80px;
+  text-align: center;
+}
+/*bande menu*/
+ul {
+  background: #478dcf;
+  display: flex;
+  justify-content: space-between;
+  padding: 45px;
+}
+/*ecriture menu*/
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Acme", sans-serif;
+  font-size: 30px;
+}
+/*ecriture menu passage souris*/
+ul li a:hover {
+  color: black;
+}
+
+ul li {
+  list-style: none;
+}
+
+#header {
+  text-align: center;
+}
+.logo {
+  display: inline;
+  float: left;
+  background-image: url("logo.png");
+  height: 108px;
+  width: 120px;
+  background-repeat: no-repeat;
+}
+/*placer logo a gauche du menu*/
+
+h1 {
+  font-size: 50px;
+  color: white;
+  text-shadow: 5px 5px #333;
+  text-align: center;
+}
+/* disposition photo famille*/
+
+.flex-container {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.marge {
+  margin: 20px;
+}
+
+#royal-family {
+  height: 500px;
+  font-family: "Satisfy", cursive;
+}
+
+h3 {
+  font-size: 50px;
+  color: black;
+  text-align: center;
+}
+h4 {
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  font-family: "Satisfy", cursive;
+}
+p {
+  font-size: 30px;
+  font-family: "Satisfy", cursive;
+}
+/*dessous conig contact us*/
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding-top: 30px;
+  font-family: "Varela Round", sans-serif;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-family: "Varela Round", sans-serif;
+}
+
+input[type="submit"] {
+  background: #478dcf;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-family: "Varela Round", sans-serif;
+}
+/*mise en page tableau*/
+/*border...fusions des cases*/
+.table-assets {
+  border-collapse: collapse;
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  margin: 0px auto;
+  border: 2px solid rgb(61, 61, 174);
+  width: 1000px;
+}
+/*rangée du tr*/
+thead tr {
+  background-color: rgb(61, 61, 174);
+  color: #fff;
+  text-align: left;
+}
+/*padding épure l'affichage autour du texte*/
+th,
+td {
+  padding: 15px 20px;
+  text-align: center;
+}
+
+tbody tr,
+td,
+th {
+  border: 1px solid black;
+}
+/*coloration fond case une sur deux*/
+.tbodyassets tr:nth-child(even) {
+  background-color: #b6aeae;
+}
+/*tableau olympic*/
+.table-olympic {
+  border-collapse: collapse;
+  width: 1000px;
+  background-color: white;
+  margin: 0px auto;
+}
+.gold {
+  background-color: #c9cd13;
+}
+.silver {
+  background-color: rgba(111, 105, 105, 0.666);
+}
+.bronze {
+  background-color: rgb(237, 172, 102);
+}
+.colchis {
+  background-color: pink;
+}
+.olympicCap {
+  padding: 100px;
+  font-size: 50px;
+  font-family: "Satisfy", cursive;
+}
